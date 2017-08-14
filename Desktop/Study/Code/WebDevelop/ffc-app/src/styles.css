@@ -1,0 +1,66 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+        margin: 0px;
+        padding: 0px;
+    }
+
+#nav{
+	    margin-top: 10px;
+	    text-align: center;
+	    font-weight: bold;
+	    font-size: 2em;
+		animation-duration: 2s;
+		animation-name: slidein;
+}
+
+@keyframes slidein {
+	  from {
+		    padding-left: 100%;
+		    width: 150%;
+	  }
+
+	  to {
+		    padding-left: 0%;
+		    width: 100%;
+	  }
+}
+
+#mainblock{
+		background: #589ce7;
+		height: 390px;
+		animation-duration: 2s;
+	    animation-name: fadein;
+}
+
+@keyframes fadein {
+	  from {
+		  	margin-top: 10px;
+		    opacity: 0;
+	  }
+
+	  to {
+		  	margin-top: 0px;
+		    opacity: 1;
+	  }
+}
+
+.title{
+	text-align: center;
+	color: white; 
+	font-size: 30px;
+	animation-delay: 2s;
+	animation-duration: 2s;
+	animation-name: fadetitle;
+}
+
+@keyframes fadetitle {
+	  from {
+		  	margin-top: 20px;
+		    opacity: 0;
+	  }
+
+	  to {
+		  	margin-top: 0px;
+		    opacity: 1;
+	  }
+}
